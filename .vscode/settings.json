@@ -1,6 +1,2 @@
 {
-  "files.associations": {
-    "*.slnx": "xml"
-  },
-  "dotnet.automaticallyCreateSolutionInWorkspace": false
 }
