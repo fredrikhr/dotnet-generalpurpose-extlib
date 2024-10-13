@@ -21,6 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4A198C1-432
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.DotnetGeneralPurpose.Extlib.Prototype", "src\FredrikHr.DotnetGeneralPurpose.Extlib.Prototype\FredrikHr.DotnetGeneralPurpose.Extlib.Prototype.csproj", "{8A6FB438-4029-441D-A23E-77CE325C923A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{93B9EE03-D93C-43F7-9CF0-89EF417538F2}"
+	ProjectSection(SolutionItems) = preProject
+		test\Directory.Build.props = test\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.DotnetGeneralPurpose.Extlib.Test", "test\FredrikHr.DotnetGeneralPurpose.Extlib.Test\FredrikHr.DotnetGeneralPurpose.Extlib.Test.csproj", "{3D8363B5-3986-4937-B1C8-4166FFE7DEA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,11 +38,16 @@ Global
 		{8A6FB438-4029-441D-A23E-77CE325C923A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A6FB438-4029-441D-A23E-77CE325C923A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A6FB438-4029-441D-A23E-77CE325C923A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8363B5-3986-4937-B1C8-4166FFE7DEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8363B5-3986-4937-B1C8-4166FFE7DEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8363B5-3986-4937-B1C8-4166FFE7DEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8363B5-3986-4937-B1C8-4166FFE7DEA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8A6FB438-4029-441D-A23E-77CE325C923A} = {F4A198C1-432A-4EBD-B9A9-D8B87CE8DBDA}
+		{3D8363B5-3986-4937-B1C8-4166FFE7DEA4} = {93B9EE03-D93C-43F7-9CF0-89EF417538F2}
 	EndGlobalSection
 EndGlobal
