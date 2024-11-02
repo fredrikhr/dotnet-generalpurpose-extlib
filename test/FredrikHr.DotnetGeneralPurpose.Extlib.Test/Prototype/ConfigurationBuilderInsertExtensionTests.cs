@@ -4,7 +4,12 @@ using FredrikHr.DotnetGeneralPurpose.Extlib.Prototype;
 
 namespace FredrikHr.DotnetGeneralPurpose.Extlib.Test.Prototype;
 
-public class ConfigurationBuilderInsertExtensionsTests
+[System.Diagnostics.CodeAnalysis.SuppressMessage(
+    "Style",
+    "IDE0053: Use expression body for lambda expression",
+    Justification = nameof(Assert)
+    )]
+public class ConfigurationBuilderInsertExtensionTests
 {
     [Fact]
     public static void ConfigurationBuilder_Insert_throws_if_builder_null()
