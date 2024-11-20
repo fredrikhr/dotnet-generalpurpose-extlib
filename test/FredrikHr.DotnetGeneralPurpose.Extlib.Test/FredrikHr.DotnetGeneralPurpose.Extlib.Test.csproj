@@ -10,13 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\FredrikHr.DotnetGeneralPurpose.Extlib.Prototype\FredrikHr.DotnetGeneralPurpose.Extlib.Prototype.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="xunit.runner.json" CopyToOutputDirectory="PreserveNewest" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration">
       <Version>8.0.0</Version>
     </PackageReference>
